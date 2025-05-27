@@ -9,11 +9,7 @@ const nextConfig = {
   images: {
     unoptimized: true,
   },
-  output: 'standalone',
   trailingSlash: false,
-  experimental: {
-    esmExternals: false,
-  },
 }
 
 export default nextConfig
